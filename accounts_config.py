@@ -4,7 +4,7 @@ def get_accounts():
 	accounts = type("", (object,), {})()	
 	# id das contas
 	accounts.account_id = [
-					# Captação
+					# id_da_conta
 					'*******']
 	
 	return accounts;
